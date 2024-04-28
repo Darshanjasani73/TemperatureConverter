@@ -1,0 +1,245 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	background-color: rgb(0, 0, 0);
+}
+.mainBox {
+  font-weight: bolder;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+	height: 350px;
+	width: 450px;
+	background-color: bisque;
+	box-shadow: 1px 1px 10px rgb(249, 245, 245);
+	position: relative;
+}
+.input{
+  margin:30px 0px 0px 23px;
+}
+#combine{
+  margin-left: -2.5pc;
+}
+#number{
+    padding: 5px 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin: 0pc 0pc -10pc 0.1pc;
+}
+.option{
+    padding: 7px 7px;
+    font-size: 14px;
+    margin-top: -2pc;
+}
+#Conlogo{
+  font-size: 3.6pc;
+  font-weight: 500;
+  margin: 2pc 0pc 0pc 13pc ;
+}
+.output{
+   margin: 1pc 0pc 0pc 0.6pc;
+}
+.OPbox{
+    background-color: white;
+    border: 1px solid rgb(6, 5, 5);
+    width: 13pc;
+    height: 29px;
+    margin: -20px 0px -25px 110px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 30px;
+    color:bisque;
+    background-color: black;
+    margin:3.5pc 0px 5pc 10.5pc;
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(210, 201, 101),
+        0 0 82px rgb(22, 23, 18),
+        0 0 80px rgb(13, 13, 10),
+        0 0 102px rgb(12, 17, 15), 
+        0 0 130px rgb(0, 0, 0);;
+  }    
+  body {
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 4.2rem;
+  }
+    
+  h2 {
+      font-size: 2rem;
+  }
+  /* Apply media query for responsivness  */
+  @media screen and (max-width: 650px) {
+    body{
+      height: 100%;
+    }
+    .mainBox {
+      height: 400px;
+      width: 330px;
+      font-size: 15px;
+    }
+    h1, h2 {
+      margin-top: 2pc;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+      
+    h1 {
+        font-size: 2.3rem;
+    }
+      
+    h2 {
+        font-size: 1.5rem;
+    }
+    #number{
+      font-size:10px;
+    }
+    .input{
+      margin-left: 0.5pc;
+    }
+    .option{
+       font-size:9.5px;
+    }
+    .OPbox{
+      margin-left: 10.9pc;
+      width: 9pc;
+      height:25px;
+    }
+    #combine{
+      margin-left: -7.3pc;
+    }
+    .btn{
+      margin-left: 6.5pc;
+    }
+    #Conlogo{
+      margin-left: 9pc;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .mainBox {
+      font-size: 11px;
+      height: 400px;
+      width: 280px;
+
+    }
+    h1, h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+      
+    h1 {
+        font-size: 2.1rem;
+    }
+      
+    h2 {
+        font-size: 1rem;
+    }
+    #number{
+      font-size:9px;
+      font-weight: 500;
+    }
+    .input{
+      margin-left: 0.1pc;
+    }
+    .option{
+       font-size:7px;
+    }
+    .OPbox{
+      margin-left: 12pc;
+      width: 8pc;
+      height:30px;
+      font-size: 18px;
+    }
+    #combine{
+      margin-left: -9pc;
+    }
+    .btn{
+      margin-left: 5.5pc;
+    }
+    #Conlogo{
+      margin-left: 8pc;
+    }
+    .output{
+      margin: 2pc 0pc 0pc 0.1pc;
+    }
+  }
+  @media screen and (max-width: 290px){
+    .mainBox {
+      font-size: 10px;
+      height: 400px;
+      width: 230px;
+
+    }
+    h1, h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+      
+    h1 {
+        font-size: 2.1rem;
+    }
+      
+    h2 {
+        font-size: 1rem;
+    }
+    #number{
+      font-size:7px;
+      font-weight: 500;
+    }
+    .input{
+      margin-left: 0.1pc;
+    }
+    .option{
+       font-size:6px;
+       margin-left: -1px;
+    }
+    .OPbox{
+      margin-left: 13.5pc;
+      width: 6.5pc;
+      height:30px;
+      font-size: 15px;
+    }
+    #combine{
+      margin-left: -11pc;
+    }
+    .btn{
+      margin-left: 4pc;
+    }
+    #Conlogo{
+      margin-left: 6pc;
+    }
+    .output{
+      margin: 2pc 0pc 0pc 0pc;
+    }
+
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp_conv</title>
+    <link rel="stylesheet" href="css/TempConvstyle.css">
+</head>
+<body>
+  <!-- Glowing text -->
+    <div class="container">
+        <h1 class="neonText">
+              Temperature
+        </h1>
+        <h2 class="neonText">Converter</h2> 
+     </div>
+     <!--Input that taken from the user -->
+    <div class="mainBox">
+     <div class="input"> 
+    Value:<input type="number" name="input" id="number">
+      <!-- Choose the initial temperature unit from the first dropdown.  -->
+        <select name="option" class="option" id="op1">
+            <option value="DC">Degree Celsius</option>
+            <option value="FH">Fahrenheit</option>
+            <option value="KL">Kelvin</option>
+        </select>
+      </div>
+    <p id="Conlogo">&#10597;</p>   <!--html code for convert arrow-->
+    <div class="output">
+         Answer: <div id="combine"><div class="OPbox" id="result"></div>
+          <select name="option" class="option" id="op2" style="margin:-10pc 0px -20pc 20.2pc;">
+              <option value="DC">Degree Celsius</option>
+              <option value="FH">Fahrenheit</option>
+              <option value="KL">Kelvin</option>
+          </select>
+        </div>
+        </div>
+    <button class="btn" onclick="TempConv()">Convert</button>
+    </div>
+</body>
+<script src="js/TempConv.js"></script> 
+</html>
